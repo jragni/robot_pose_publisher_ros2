@@ -11,9 +11,9 @@ def generate_launch_description():
             emulate_tty=True,
             parameters=[
                 {"use_sim_time": True},
-                {"is_stamped": False},
+                {"is_stamped": True},
                 {"map_frame": "map"},
-                {"base_frame": "base_link"}
+                {"base_frame": "base_footprint"}
             ]
         )
     ])
